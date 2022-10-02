@@ -120,7 +120,7 @@ class MainActivity : ComponentActivity() {
             shape = RoundedCornerShape(10.dp),
             border = BorderStroke(1.dp, Color.Yellow)
         ) {
-            Text(text = text, style = TextStyle(fontSize = 24.sp))
+            Text(text = text, fontSize = 24.sp)
         }
     }
 
